@@ -2,18 +2,20 @@
 
 ## Context
 
-We want to rename all of the project "levels" to be 3-digit numbers.
+We have a set of files in a directory.  We want to rename all of the project "levels" to be 3-digit numbers.
 
-- level 10 becomes level 100
-- level 20 becomes level 200
+So
+
+- level 10 should become level 100
+- level 20 should become level 200
 - ... and so on...
 
-Note that the levels are written differently:
+Note that the levels are written inconsistently:
 
 - sometimes as `level nn`
 - sometimes as `level-nn`
 
-The filenames themselves should also be renamed.
+We will have to find and change these level references in the text of files and in the filenames.  We should rename in both cases.
 
 All of this could be done manually but it would be error-prone. (There are nearly 50 changes to be made).
 
